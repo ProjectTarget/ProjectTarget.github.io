@@ -53,9 +53,9 @@
     <article id="main">
 
       <header class="special container">
-        <span class="icon fa-envelope"></span>
-        <h2>Get In Touch</h2>
-        <p>Use the form below to give /dev/null a piece of your mind.</p>
+        <span class="icon fa-eye-slash"></span>
+        <h2>Verify a profile!</h2>
+        <p>Use the form below to verify a profile.</p>
       </header>
 
       <!-- One -->
@@ -64,28 +64,30 @@
         <!-- Content -->
         <div class="content">
           <form>
-            <div class="row half collapse-at-2">
-              <div class="6u">
-                <input type="text" name="name" placeholder="Name" />
-              </div>
-              <div class="6u">
-                <input type="text" name="email" placeholder="Email" />
-              </div>
-            </div>
             <div class="row half">
               <div class="12u">
-                <input type="text" name="subject" placeholder="Subject" />
-              </div>
-            </div>
-            <div class="row half">
-              <div class="12u">
-                <textarea name="message" placeholder="Message" rows="7"></textarea>
+                <input type="text" name="subject" placeholder="URL to Facebook profile" />
               </div>
             </div>
             <div class="row">
               <div class="12u">
                 <ul class="buttons">
-                  <li><input type="submit" class="special" value="Send Message" /></li>
+                  <li><input type="submit" class="special" value="Verify by Link" /></li>
+                </ul>
+              </div>
+            </div>
+            <div class="row half collapse-at-2">
+              <div class="6u">
+                <input type="text" name="name" placeholder="HTML of Timeline" />
+              </div>
+              <div class="6u">
+                <input type="text" name="email" placeholder="HTML of Stories By" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="12u">
+                <ul class="buttons">
+                  <li><input type="submit" class="special" value="Verify by Attached Files" /></li>
                 </ul>
               </div>
             </div>
