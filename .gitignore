@@ -54,3 +54,6 @@ _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+
+# Specific to Vim:
+.*.swp
